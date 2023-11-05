@@ -79,9 +79,9 @@ nav ul {
 
 /* Style the content */
 article {
-  -webkit-flex: 8;
-  -ms-flex: 8;
-  flex: 8;
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
 /*  background-color: #f1f1f1; */
   padding: 10px;
 }
@@ -100,4 +100,10 @@ footer {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
