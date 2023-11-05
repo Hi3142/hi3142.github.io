@@ -1,15 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-* {font-family: 'Nunito', 'Open Sans', 'Trebuchet MS', Sans-serif;}
-li {font-size: 16px; margin-left: 10px}
-p {font-size: 16px; margin-left: 10px}
-h1 {text-align: center; font-size: 40px}
-h2 {text-align: center; font-size: 30px}
-h3 {text-align: left; font-size: 24px}
-h4 {text-align: left; font-size: 20px}
 
 * {
+  font-family: 'Nunito', 'Open Sans', 'Trebuchet MS', Sans-serif;
   box-sizing: border-box;
+}
+
+b {
+  color: blue;
+  font-weight: bold;
+}
+
+li {
+  font-size: 16px;
+  margin-left: 10px;
+}
+p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+}
+h3 {
+  color: blue;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+h4 {
+  text-align: left;
+  font-size: 20px;
 }
 
 body {
@@ -25,11 +52,6 @@ header {
 /*  color: white; */
 }
 
-b {
-  color: blue;
-  font-weight: bold;
-}
-
 /* Container for flexboxes */
 section {
   display: -webkit-flex;
@@ -43,6 +65,10 @@ nav {
   flex: 1;
 /*  background: #ddd; */
   padding: 5px;
+  & li {
+    font-size: 20px;
+    margin: 10px 0;
+  }
 }
 
 /* Style the list inside the menu */
